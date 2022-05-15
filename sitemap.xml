@@ -70,9 +70,6 @@
     <loc>https://getbootstrap.su/docs/5.2/examples/dropdowns/</loc>
   </url>
   <url>
-    <loc>https://getbootstrap.su/docs/5.2/examples/</loc>
-  </url>
-  <url>
     <loc>https://getbootstrap.su/docs/5.2/examples/features/</loc>
   </url>
   <url>
@@ -335,6 +332,9 @@
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/examples/pricing/</loc>
+  </url>
+  <url>
+    <loc>https://getbootstrap.su/docs/5.2/examples/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/components/progress/</loc>
