@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Breakpoints are customizable widths that determine how your responsive layout behaves across device or viewport sizes in Bootstrap.">
+<meta name="description" content="Контрольные точки - это настраиваемая ширина, которая определяет поведение адаптивного макета на разных устройствах или размерах области просмотра в Bootstrap.">
 <meta name="author" content="Марк Отто, Джейкоб Торнтон и контрибьюторы Bootstrap">
 <meta name="generator" content="Hugo 0.98.0">
 
 <meta name="docsearch:language" content="ru">
 <meta name="docsearch:version" content="5.2">
 
-<title>Breakpoints · Bootstrap v5.2</title>
+<title>Контрольные точки · Bootstrap v5.2</title>
 
 <link rel="canonical" href="https://getbootstrap.su/docs/5.2/layout/breakpoints/"><link rel="preconnect" href="https://BH4D9OD16A-dsn.algolia.net" crossorigin>
 
@@ -35,14 +35,14 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@getbootstrap">
 <meta name="twitter:creator" content="@getbootstrap">
-<meta name="twitter:title" content="Breakpoints">
-<meta name="twitter:description" content="Breakpoints are customizable widths that determine how your responsive layout behaves across device or viewport sizes in Bootstrap.">
+<meta name="twitter:title" content="Контрольные точки">
+<meta name="twitter:description" content="Контрольные точки - это настраиваемая ширина, которая определяет поведение адаптивного макета на разных устройствах или размерах области просмотра в Bootstrap.">
 <meta name="twitter:image" content="https://getbootstrap.su/docs/5.2/assets/brand/bootstrap-social.png">
 
 <!-- Facebook -->
 <meta property="og:url" content="https://getbootstrap.su/docs/5.2/layout/breakpoints/">
-<meta property="og:title" content="Breakpoints">
-<meta property="og:description" content="Breakpoints are customizable widths that determine how your responsive layout behaves across device or viewport sizes in Bootstrap.">
+<meta property="og:title" content="Контрольные точки">
+<meta property="og:description" content="Контрольные точки - это настраиваемая ширина, которая определяет поведение адаптивного макета на разных устройствах или размерах области просмотра в Bootstrap.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://getbootstrap.su/docs/5.2/assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
@@ -491,9 +491,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a class="btn btn-sm btn-bd-light mb-3 mb-md-0" href="https://getbootstrap.com/docs/5.2/layout/breakpoints" title="" target="_blank" rel="noopener">Оригинал</a>
             <a class="btn btn-sm btn-bd-light mb-3 mb-md-0" href="https://github.com/ruBootstrap/bootstrap/blob/main-ru/site/content/docs/5.2/layout/breakpoints.md" title="Просмотрите и отредактируйте этот файл на GitHub" target="_blank" rel="noopener">На GitHub</a>
           </div>
-          <h1 class="bd-title mb-0" id="content">Breakpoints</h1>
+          <h1 class="bd-title mb-0" id="content">Контрольные точки</h1>
         </div>
-        <p class="bd-lead">Breakpoints are customizable widths that determine how your responsive layout behaves across device or viewport sizes in Bootstrap.</p>
+        <p class="bd-lead">Контрольные точки - это настраиваемая ширина, которая определяет поведение адаптивного макета на разных устройствах или размерах области просмотра в Bootstrap.</p>
         
       </div>
 
@@ -508,14 +508,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="collapse bd-toc-collapse" id="tocContents">
             <nav id="TableOfContents">
   <ul>
-    <li><a href="#core-concepts">Core concepts</a></li>
-    <li><a href="#available-breakpoints">Available breakpoints</a></li>
-    <li><a href="#media-queries">Media queries</a>
+    <li><a href="#основные-концепции">Основные концепции</a></li>
+    <li><a href="#доступные-контрольные-точки">Доступные контрольные точки</a></li>
+    <li><a href="#медиа-запросы">Медиа-запросы</a>
       <ul>
-        <li><a href="#min-width">Min-width</a></li>
-        <li><a href="#max-width">Max-width</a></li>
-        <li><a href="#single-breakpoint">Single breakpoint</a></li>
-        <li><a href="#between-breakpoints">Between breakpoints</a></li>
+        <li><a href="#минимальная-ширина">Минимальная ширина</a></li>
+        <li><a href="#максимальная-ширина">Максимальная ширина</a></li>
+        <li><a href="#одиночная-контрольная-точка">Одиночная контрольная точка</a></li>
+        <li><a href="#между-контрольными-точками">Между контрольными точками</a></li>
       </ul>
     </li>
   </ul>
@@ -527,64 +527,64 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="bd-content ps-lg-2">
         
 
-        <h2 id="core-concepts">Core concepts <a class="anchor-link" href="#core-concepts" aria-label="Link to this section: Core concepts"></a></h2>
+        <h2 id="основные-концепции">Основные концепции <a class="anchor-link" href="#%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d0%bf%d1%86%d0%b8%d0%b8" aria-label="Link to this section: Основные концепции"></a></h2>
 <ul>
 <li>
-<p><strong>Breakpoints are the building blocks of responsive design.</strong> Use them to control when your layout can be adapted at a particular viewport or device size.</p>
+<p><strong>Контрольные точки - это строительные блоки адаптивного дизайна.</strong> Используйте их, чтобы контролировать, когда Ваш макет может быть адаптирован для определенного окна просмотра или размера устройства.</p>
 </li>
 <li>
-<p><strong>Use media queries to architect your CSS by breakpoint.</strong> Media queries are a feature of CSS that allow you to conditionally apply styles based on a set of browser and operating system parameters. We most commonly use <code>min-width</code> in our media queries.</p>
+<p><strong>Используйте медиа-запросы для построения Вашего CSS по контрольной точке.</strong> Медиа-запросы - это функция CSS, которая позволяет Вам условно применять стили на основе набора параметров браузера и операционной системы. Чаще всего мы используем <code>min-width</code> в наших медиа-запросах.</p>
 </li>
 <li>
-<p><strong>Mobile first, responsive design is the goal.</strong> Bootstrap&rsquo;s CSS aims to apply the bare minimum of styles to make a layout work at the smallest breakpoint, and then layers on styles to adjust that design for larger devices. This optimizes your CSS, improves rendering time, and provides a great experience for your visitors.</p>
+<p><strong>Прежде всего мобильные, цель - адаптивный дизайн.</strong> CSS Bootstrap нацелен на применение минимального количества стилей, чтобы макет работал с минимальной контрольной точкой, а затем на слои стилей, чтобы настроить этот дизайн для более крупных устройств. Это оптимизирует Ваш CSS, сокращает время рендеринга и обеспечивает отличный опыт для Ваших посетителей.</p>
 </li>
 </ul>
-<h2 id="available-breakpoints">Available breakpoints <a class="anchor-link" href="#available-breakpoints" aria-label="Link to this section: Available breakpoints"></a></h2>
-<p>Bootstrap includes six default breakpoints, sometimes referred to as <em>grid tiers</em>, for building responsively. These breakpoints can be customized if you&rsquo;re using our source Sass files.</p>
+<h2 id="доступные-контрольные-точки">Доступные контрольные точки <a class="anchor-link" href="#%d0%b4%d0%be%d1%81%d1%82%d1%83%d0%bf%d0%bd%d1%8b%d0%b5-%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%be%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d1%82%d0%be%d1%87%d0%ba%d0%b8" aria-label="Link to this section: Доступные контрольные точки"></a></h2>
+<p>Bootstrap включает шесть контрольных точек по умолчанию, иногда называемых <em>grid tiers</em>, для быстрого построения. Эти контрольные точки можно настроить, если Вы используете наши исходные файлы Sass.</p>
 <div class="table-responsive"><table class="table">
 <thead>
 <tr>
-<th>Breakpoint</th>
-<th>Class infix</th>
-<th>Dimensions</th>
+<th>Контрольная точка</th>
+<th>Инфикс класса</th>
+<th>Габаритные размеры</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Extra small</td>
+<td>Очень маленький</td>
 <td><em>None</em></td>
 <td>&lt;576px</td>
 </tr>
 <tr>
-<td>Small</td>
+<td>Маленький</td>
 <td><code>sm</code></td>
 <td>≥576px</td>
 </tr>
 <tr>
-<td>Medium</td>
+<td>Средний</td>
 <td><code>md</code></td>
 <td>≥768px</td>
 </tr>
 <tr>
-<td>Large</td>
+<td>Большой</td>
 <td><code>lg</code></td>
 <td>≥992px</td>
 </tr>
 <tr>
-<td>Extra large</td>
+<td>Очень большой</td>
 <td><code>xl</code></td>
 <td>≥1200px</td>
 </tr>
 <tr>
-<td>Extra extra large</td>
+<td>Огромный</td>
 <td><code>xxl</code></td>
 <td>≥1400px</td>
 </tr>
 </tbody>
 </table></div>
 
-<p>Each breakpoint was chosen to comfortably hold containers whose widths are multiples of 12. Breakpoints are also representative of a subset of common device sizes and viewport dimensions—they don&rsquo;t specifically target every use case or device. Instead, the ranges provide a strong and consistent foundation to build on for nearly any device.</p>
-<p>These breakpoints are customizable via Sass—you&rsquo;ll find them in a Sass map in our <code>_variables.scss</code> stylesheet.</p>
+<p>Каждая контрольная точка была выбрана для удобного размещения контейнеров, ширина которых кратна 12. Контрольные точки также представляют собой подмножество общих размеров устройств и размеров области просмотра - они специально не нацелены на каждый вариант использования или устройство. Напротив, эти линейки обеспечивают прочную и стабильную основу практически для любого устройства.</p>
+<p>Эти контрольные точки настраиваются через Sass - Вы найдете их на карте Sass в нашей таблице стилей <code>_variables.scss</code>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$grid-breakpoints</span><span class="o">:</span> <span class="p">(</span>
 </span></span><span class="line"><span class="cl">  <span class="na">xs</span><span class="o">:</span> <span class="mi">0</span><span class="o">,</span>
 </span></span><span class="line"><span class="cl">  <span class="na">sm</span><span class="o">:</span> <span class="mi">576</span><span class="kt">px</span><span class="o">,</span>
@@ -594,23 +594,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </span></span><span class="line"><span class="cl">  <span class="na">xxl</span><span class="o">:</span> <span class="mi">1400</span><span class="kt">px</span>
 </span></span><span class="line"><span class="cl"><span class="p">);</span>
 </span></span></code></pre></div>
-<p>For more information and examples on how to modify our Sass maps and variables, please refer to <a href="/docs/5.2/layout/grid/#sass">the Sass section of the Grid documentation</a>.</p>
-<h2 id="media-queries">Media queries <a class="anchor-link" href="#media-queries" aria-label="Link to this section: Media queries"></a></h2>
-<p>Since Bootstrap is developed to be mobile first, we use a handful of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">media queries</a> to create sensible breakpoints for our layouts and interfaces. These breakpoints are mostly based on minimum viewport widths and allow us to scale up elements as the viewport changes.</p>
-<h3 id="min-width">Min-width <a class="anchor-link" href="#min-width" aria-label="Link to this section: Min-width"></a></h3>
-<p>Bootstrap primarily uses the following media query ranges—or breakpoints—in our source Sass files for our layout, grid system, and components.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// Source mixins
+<p>Для получения дополнительной информации и примеров того, как изменить наши карты и переменные Sass, обратитесь к <a href="/docs/5.2/layout/grid/#sass">разделу Sass документации Grid</a>.</p>
+<h2 id="медиа-запросы">Медиа-запросы <a class="anchor-link" href="#%d0%bc%d0%b5%d0%b4%d0%b8%d0%b0-%d0%b7%d0%b0%d0%bf%d1%80%d0%be%d1%81%d1%8b" aria-label="Link to this section: Медиа-запросы"></a></h2>
+<p>Поскольку Bootstrap в первую очередь разработан для мобильных устройств, мы используем несколько <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">медиа-запросов</a> для создания разумных контрольных точек для наших макетов и интерфейсов. Эти контрольные точки в основном основаны на минимальной ширине области просмотра и позволяют масштабировать элементы по мере изменения области просмотра.</p>
+<h3 id="минимальная-ширина">Минимальная ширина <a class="anchor-link" href="#%d0%bc%d0%b8%d0%bd%d0%b8%d0%bc%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d1%88%d0%b8%d1%80%d0%b8%d0%bd%d0%b0" aria-label="Link to this section: Минимальная ширина"></a></h3>
+<p>Bootstrap в основном использует следующие диапазоны медиа-запросов - или контрольные точки - в наших исходных файлах Sass для нашей разметки, системы сеток и компонентов.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// Исходные миксины
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="c1">// No media query necessary for xs breakpoint as it&#39;s effectively `@media (min-width: 0) { ... }`
+</span></span><span class="line"><span class="cl"><span class="c1">// Нет необходимости в медиа-запросе для контрольной точки xs, так как это эффективно `@media (min-width: 0) { ... }`
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@include</span><span class="nd"> media-breakpoint-up</span><span class="p">(</span><span class="n">sm</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-up</span><span class="p">(</span><span class="n">md</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-up</span><span class="p">(</span><span class="n">lg</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-up</span><span class="p">(</span><span class="n">xl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-up</span><span class="p">(</span><span class="n">xxl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// Usage
+</span></span><span class="line"><span class="cl"><span class="c1">// Применение
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="c1">// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+</span></span><span class="line"><span class="cl"><span class="c1">// Пример: Скрыть начало с `min-width: 0`, а затем показать в контрольной точке `sm`
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nc">.custom-class</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="na">display</span><span class="o">:</span> <span class="ni">none</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
@@ -619,77 +619,77 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </span></span><span class="line"><span class="cl">    <span class="na">display</span><span class="o">:</span> <span class="ni">block</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>These Sass mixins translate in our compiled CSS using the values declared in our Sass variables. For example:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// X-Small devices (portrait phones, less than 576px)
-</span></span></span><span class="line"><span class="cl"><span class="c1">// No media query for `xs` since this is the default in Bootstrap
+</span></span></code></pre></div><p>Эти миксины Sass переводятся в наш скомпилированный CSS с использованием значений, объявленных в наших переменных Sass. Например:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// Устройства X-Small (портретные телефоны, менее 576 пикселей)
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Нет медиа-запроса для `xs`, так как это значение по умолчанию в Bootstrap
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="c1">// Small devices (landscape phones, 576px and up)
+</span></span><span class="line"><span class="cl"><span class="c1">// Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">min-width</span><span class="o">:</span> <span class="mi">576</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// Medium devices (tablets, 768px and up)
+</span></span><span class="line"><span class="cl"><span class="c1">// Устройства Medium (планшеты, 768 пикселей и выше)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">min-width</span><span class="o">:</span> <span class="mi">768</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// Large devices (desktops, 992px and up)
+</span></span><span class="line"><span class="cl"><span class="c1">// Устройства Large (настольные компьютеры, 992 пикселей и выше)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">min-width</span><span class="o">:</span> <span class="mi">992</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// X-Large devices (large desktops, 1200px and up)
+</span></span><span class="line"><span class="cl"><span class="c1">// Устройства X-Large (большие настольные компьютеры, 1200 пикселей и выше)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">min-width</span><span class="o">:</span> <span class="mi">1200</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// XX-Large devices (larger desktops, 1400px and up)
+</span></span><span class="line"><span class="cl"><span class="c1">// Устройства XX-Large (большие настольные компьютеры, 1400 пикселей и выше)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">min-width</span><span class="o">:</span> <span class="mi">1400</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
-</span></span></code></pre></div><h3 id="max-width">Max-width <a class="anchor-link" href="#max-width" aria-label="Link to this section: Max-width"></a></h3>
-<p>We occasionally use media queries that go in the other direction (the given screen size <em>or smaller</em>):</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// No media query necessary for xs breakpoint as it&#39;s effectively `@media (max-width: 0) { ... }`
+</span></span></code></pre></div><h3 id="максимальная-ширина">Максимальная ширина <a class="anchor-link" href="#%d0%bc%d0%b0%d0%ba%d1%81%d0%b8%d0%bc%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d1%88%d0%b8%d1%80%d0%b8%d0%bd%d0%b0" aria-label="Link to this section: Максимальная ширина"></a></h3>
+<p>Иногда мы используем медиа-запросы, идущие в другом направлении (заданный размер экрана <em>или меньше</em>):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// Для контрольной точки xs не требуется медиа-запрос, поскольку он фактически `@media (max-width: 0) { ... }`
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@include</span><span class="nd"> media-breakpoint-down</span><span class="p">(</span><span class="n">sm</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-down</span><span class="p">(</span><span class="n">md</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-down</span><span class="p">(</span><span class="n">lg</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-down</span><span class="p">(</span><span class="n">xl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-down</span><span class="p">(</span><span class="n">xxl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// Example: Style from medium breakpoint and down
+</span></span><span class="line"><span class="cl"><span class="c1">// Пример: стиль от средней контрольной точки и ниже
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@include</span><span class="nd"> media-breakpoint-down</span><span class="p">(</span><span class="n">md</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="nc">.custom-class</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="na">display</span><span class="o">:</span> <span class="ni">block</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>These mixins take those declared breakpoints, subtract <code>.02px</code> from them, and use them as our <code>max-width</code> values. For example:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// `xs` returns only a ruleset and no media query
+</span></span></code></pre></div><p>Эти миксины берут объявленные контрольной точки, вычитают из них <code>.02px</code> и используют их как наши значения <code>max-width</code>. Например:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// `xs` возвращает только набор правил, но не медиа-запрос
 </span></span></span><span class="line"><span class="cl"><span class="c1">// ... { ... }
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="c1">// `sm` applies to x-small devices (portrait phones, less than 576px)
+</span></span><span class="line"><span class="cl"><span class="c1">// `sm` применяется к устройствам x-small (портретные телефоны, менее 576 пикселей)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">575</span><span class="mf">.98</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// `md` applies to small devices (landscape phones, less than 768px)
+</span></span><span class="line"><span class="cl"><span class="c1">// `md` применяется к небольшим устройствам medium (телефоны с горизонтальной ориентацией, менее 768 пикселей)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">767</span><span class="mf">.98</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// `lg` applies to medium devices (tablets, less than 992px)
+</span></span><span class="line"><span class="cl"><span class="c1">// `lg` применяется к устройствам среднего размера large (планшеты, менее 992 пикселей)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">991</span><span class="mf">.98</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// `xl` applies to large devices (desktops, less than 1200px)
+</span></span><span class="line"><span class="cl"><span class="c1">// `xl` применяется к большим устройствам (настольные компьютеры, менее 1200 пикселей)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">1199</span><span class="mf">.98</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// `xxl` applies to x-large devices (large desktops, less than 1400px)
+</span></span><span class="line"><span class="cl"><span class="c1">// `xxl` применяется к устройствам x-large (большие рабочие столы, менее 1400 пикселей)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">1399</span><span class="mf">.98</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span></code></pre></div><div class="bd-callout bd-callout-warning">
 <strong>Зачем вычитать .02px?</strong> В настоящее время браузеры не поддерживают <a href="https://www.w3.org/TR/mediaqueries-4/#range-context">контекстные запросы диапазона</a>, поэтому мы обходим ограничения <a href="https://www.w3.org/TR/mediaqueries-4/#mq-min-max">префиксы <code>min-</code> и <code>max-</code></a> и области просмотра с дробной шириной (что может происходить при определенных условиях на высоких -dpi устройства, например), используя значения с более высокой точностью.
 </div>
 
-<h3 id="single-breakpoint">Single breakpoint <a class="anchor-link" href="#single-breakpoint" aria-label="Link to this section: Single breakpoint"></a></h3>
-<p>There are also media queries and mixins for targeting a single segment of screen sizes using the minimum and maximum breakpoint widths.</p>
+<h3 id="одиночная-контрольная-точка">Одиночная контрольная точка <a class="anchor-link" href="#%d0%be%d0%b4%d0%b8%d0%bd%d0%be%d1%87%d0%bd%d0%b0%d1%8f-%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%be%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d1%82%d0%be%d1%87%d0%ba%d0%b0" aria-label="Link to this section: Одиночная контрольная точка"></a></h3>
+<p>Существуют также медиа-запросы и миксины для нацеливания на один сегмент размеров экрана с использованием минимальной и максимальной ширины контрольной точки.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-only</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-only</span><span class="p">(</span><span class="n">sm</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-only</span><span class="p">(</span><span class="n">md</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-only</span><span class="p">(</span><span class="n">lg</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-only</span><span class="p">(</span><span class="n">xl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-only</span><span class="p">(</span><span class="n">xxl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
-</span></span></code></pre></div><p>For example the <code>@include media-breakpoint-only(md) { ... }</code> will result in :</p>
+</span></span></code></pre></div><p>Например, <code>@include media-breakpoint-only(md) { ... }</code> приведет к:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@media</span> <span class="p">(</span><span class="na">min-width</span><span class="o">:</span> <span class="mi">768</span><span class="kt">px</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">991</span><span class="mf">.98</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
-</span></span></code></pre></div><h3 id="between-breakpoints">Between breakpoints <a class="anchor-link" href="#between-breakpoints" aria-label="Link to this section: Between breakpoints"></a></h3>
-<p>Similarly, media queries may span multiple breakpoint widths:</p>
+</span></span></code></pre></div><h3 id="между-контрольными-точками">Между контрольными точками <a class="anchor-link" href="#%d0%bc%d0%b5%d0%b6%d0%b4%d1%83-%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%be%d0%bb%d1%8c%d0%bd%d1%8b%d0%bc%d0%b8-%d1%82%d0%be%d1%87%d0%ba%d0%b0%d0%bc%d0%b8" aria-label="Link to this section: Между контрольными точками"></a></h3>
+<p>Точно так же медиа-запросы могут охватывать несколько значений ширины контрольной точки:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@include</span><span class="nd"> media-breakpoint-between</span><span class="p">(</span><span class="n">md</span><span class="o">,</span> <span class="n">xl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
-</span></span></code></pre></div><p>Which results in:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// Example
-</span></span></span><span class="line"><span class="cl"><span class="c1">// Apply styles starting from medium devices and up to extra large devices
+</span></span></code></pre></div><p>Что приводит к:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// Пример
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Применятся стили, начиная со средних и заканчивая очень большими.
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@media</span> <span class="p">(</span><span class="na">min-width</span><span class="o">:</span> <span class="mi">768</span><span class="kt">px</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">1199</span><span class="mf">.98</span><span class="kt">px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span>
 </span></span></code></pre></div>
       </div>

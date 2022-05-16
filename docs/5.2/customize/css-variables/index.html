@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Use Bootstrap&rsquo;s CSS custom properties for fast and forward-looking design and development.">
+<meta name="description" content="Используйте настраиваемые свойства CSS Bootstrap для быстрого и перспективного проектирования и разработки.">
 <meta name="author" content="Марк Отто, Джейкоб Торнтон и контрибьюторы Bootstrap">
 <meta name="generator" content="Hugo 0.98.0">
 
 <meta name="docsearch:language" content="ru">
 <meta name="docsearch:version" content="5.2">
 
-<title>CSS variables · Bootstrap v5.2</title>
+<title>CSS переменные · Bootstrap v5.2</title>
 
 <link rel="canonical" href="https://getbootstrap.su/docs/5.2/customize/css-variables/"><link rel="preconnect" href="https://BH4D9OD16A-dsn.algolia.net" crossorigin>
 
@@ -35,14 +35,14 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@getbootstrap">
 <meta name="twitter:creator" content="@getbootstrap">
-<meta name="twitter:title" content="CSS variables">
-<meta name="twitter:description" content="Use Bootstrap&rsquo;s CSS custom properties for fast and forward-looking design and development.">
+<meta name="twitter:title" content="CSS переменные">
+<meta name="twitter:description" content="Используйте настраиваемые свойства CSS Bootstrap для быстрого и перспективного проектирования и разработки.">
 <meta name="twitter:image" content="https://getbootstrap.su/docs/5.2/assets/brand/bootstrap-social.png">
 
 <!-- Facebook -->
 <meta property="og:url" content="https://getbootstrap.su/docs/5.2/customize/css-variables/">
-<meta property="og:title" content="CSS variables">
-<meta property="og:description" content="Use Bootstrap&rsquo;s CSS custom properties for fast and forward-looking design and development.">
+<meta property="og:title" content="CSS переменные">
+<meta property="og:description" content="Используйте настраиваемые свойства CSS Bootstrap для быстрого и перспективного проектирования и разработки.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://getbootstrap.su/docs/5.2/assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
@@ -491,9 +491,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a class="btn btn-sm btn-bd-light mb-3 mb-md-0" href="https://getbootstrap.com/docs/5.2/customize/css-variables" title="" target="_blank" rel="noopener">Оригинал</a>
             <a class="btn btn-sm btn-bd-light mb-3 mb-md-0" href="https://github.com/ruBootstrap/bootstrap/blob/main-ru/site/content/docs/5.2/customize/css-variables.md" title="Просмотрите и отредактируйте этот файл на GitHub" target="_blank" rel="noopener">На GitHub</a>
           </div>
-          <h1 class="bd-title mb-0" id="content">CSS variables</h1>
+          <h1 class="bd-title mb-0" id="content">CSS переменные</h1>
         </div>
-        <p class="bd-lead">Use Bootstrap&rsquo;s CSS custom properties for fast and forward-looking design and development.</p>
+        <p class="bd-lead">Используйте настраиваемые свойства CSS Bootstrap для быстрого и перспективного проектирования и разработки.</p>
         
       </div>
 
@@ -508,11 +508,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="collapse bd-toc-collapse" id="tocContents">
             <nav id="TableOfContents">
   <ul>
-    <li><a href="#root-variables">Root variables</a></li>
-    <li><a href="#component-variables">Component variables</a></li>
-    <li><a href="#prefix">Prefix</a></li>
-    <li><a href="#examples">Examples</a></li>
-    <li><a href="#grid-breakpoints">Grid breakpoints</a></li>
+    <li><a href="#корневые-переменные">Корневые переменные</a></li>
+    <li><a href="#переменные-компонента">Переменные компонента</a></li>
+    <li><a href="#префикс">Префикс</a></li>
+    <li><a href="#примеры">Примеры</a></li>
+    <li><a href="#контрольные-точки-сетки">Контрольные точки сетки</a></li>
   </ul>
 </nav>
           </div>
@@ -522,10 +522,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="bd-content ps-lg-2">
         
 
-        <p>Bootstrap includes many <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS custom properties (variables)</a> in its compiled CSS for real-time customization without the need to recompile Sass. These provide easy access to commonly used values like our theme colors, breakpoints, and primary font stacks when working in your browser&rsquo;s inspector, a code sandbox, or general prototyping.</p>
-<p><strong>All our custom properties are prefixed with <code>bs-</code></strong> to avoid conflicts with third party CSS.</p>
-<h2 id="root-variables">Root variables <a class="anchor-link" href="#root-variables" aria-label="Link to this section: Root variables"></a></h2>
-<p>Here are the variables we include (note that the <code>:root</code> is required) that can be accessed anywhere Bootstrap&rsquo;s CSS is loaded. They&rsquo;re located in our <code>_root.scss</code> file and included in our compiled dist files.</p>
+        <p>Bootstrap включает множество <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">настраиваемых свойств (переменных) CSS</a> в свой скомпилированный CSS для настройки в реальном времени без необходимости перекомпилировать Sass. Они обеспечивают легкий доступ к часто используемым значениям, таким как цвета нашей темы, контрольные точки и стеки основных шрифтов, при работе в инспекторе браузера, в изолированной программной среде или при общем прототипировании.</p>
+<p><strong>Все наши настраиваемые свойства имеют префикс <code>bs-</code></strong>, чтобы избежать конфликтов со сторонним CSS.</p>
+<h2 id="корневые-переменные">Корневые переменные <a class="anchor-link" href="#%d0%ba%d0%be%d1%80%d0%bd%d0%b5%d0%b2%d1%8b%d0%b5-%d0%bf%d0%b5%d1%80%d0%b5%d0%bc%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5" aria-label="Link to this section: Корневые переменные"></a></h2>
+<p>Вот переменные, которые мы включаем (обратите внимание, что требуется <code>:root</code>), к которым можно получить доступ везде, где загружен CSS Bootstrap. Они находятся в нашем файле <code>_root.scss</code> и включены в наши скомпилированные файлы dist.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">:root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -595,23 +595,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }</span>
-</span></span></code></pre></div><h2 id="component-variables">Component variables <a class="anchor-link" href="#component-variables" aria-label="Link to this section: Component variables"></a></h2>
-<p>Bootstrap 5 is increasingly making use of custom properties as local variables for various components. This way we reduce our compiled CSS, ensure styles aren&rsquo;t inherited in places like nested tables, and allow some basic restyling and extending of Bootstrap components after Sass compilation.</p>
-<p>Have a look at our table documentation for some <a href="/docs/5.2/content/tables/#how-do-the-variants-and-accented-tables-work">insight into how we&rsquo;re using CSS variables</a>. Our <a href="/docs/5.2/components/navbar/#css">navbars also use CSS variables</a> as of v5.2.0. We&rsquo;re also using CSS variables across our grids—primarily for gutters the <a href="/docs/5.2/layout/css-grid/">new opt-in CSS grid</a>—with more component usage coming in the future.</p>
-<p>Whenever possible, we&rsquo;ll assign CSS variables at the base component level (e.g., <code>.navbar</code> for navbar and its sub-components). This reduces guessing on where and how to customize, and allows for easy modifications by our team in future updates.</p>
-<h2 id="prefix">Prefix <a class="anchor-link" href="#prefix" aria-label="Link to this section: Prefix"></a></h2>
-<p>Most CSS variables use a prefix to avoid collisions with your own codebase. This prefix is in addition to the <code>--</code> that&rsquo;s required on every CSS variable.</p>
-<p>Customize the prefix via the <code>$prefix</code> Sass variable. By default, it&rsquo;s set to <code>bs-</code> (note the trailing dash).</p>
-<h2 id="examples">Examples <a class="anchor-link" href="#examples" aria-label="Link to this section: Examples"></a></h2>
-<p>CSS variables offer similar flexibility to Sass&rsquo;s variables, but without the need for compilation before being served to the browser. For example, here we&rsquo;re resetting our page&rsquo;s font and link styles with CSS variables.</p>
+</span></span></code></pre></div><h2 id="переменные-компонента">Переменные компонента <a class="anchor-link" href="#%d0%bf%d0%b5%d1%80%d0%b5%d0%bc%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5-%d0%ba%d0%be%d0%bc%d0%bf%d0%be%d0%bd%d0%b5%d0%bd%d1%82%d0%b0" aria-label="Link to this section: Переменные компонента"></a></h2>
+<p>Bootstrap 5 все чаще использует пользовательские свойства в качестве локальных переменных для различных компонентов. Таким образом мы уменьшаем наш скомпилированный CSS, гарантируем, что стили не наследуются в таких местах, как вложенные таблицы, и допускаем некоторые базовые изменения стиля и расширения компонентов Bootstrap после компиляции Sass.</p>
+<p>Взгляните на нашу документацию по таблицам, чтобы узнать, как мы используем переменные CSS](/docs/5.2/content/tables/#how-do-the-variants-and-accented-tables-work). Наши <a href="/docs/5.2/components/navbar/#css">панели навигации также используют переменные CSS</a> начиная с версии 5.2.0. Мы также используем переменные CSS в наших сетках — в первую очередь для отступов — <a href="/docs/5.2/layout/css-grid/">новая CSS-сетка с опционом</a> — с более широким использованием компонентов в будущем.</p>
+<p>По возможности мы будем назначать переменные CSS на уровне базового компонента (например, <code>.navbar</code> для панели навигации и ее подкомпонентов). Это уменьшает количество предположений о том, где и как настраивать, и позволяет нашей команде легко вносить изменения в будущих обновлениях.</p>
+<h2 id="префикс">Префикс <a class="anchor-link" href="#%d0%bf%d1%80%d0%b5%d1%84%d0%b8%d0%ba%d1%81" aria-label="Link to this section: Префикс"></a></h2>
+<p>Большинство переменных CSS используют префикс, чтобы избежать конфликтов с вашей собственной кодовой базой. Этот префикс является дополнением к <code>--</code>, который требуется для каждой переменной CSS.</p>
+<p>Настройте префикс с помощью переменной Sass <code>$prefix</code>. По умолчанию установлено значение <code>bs-</code> (обратите внимание на тире в конце).</p>
+<h2 id="примеры">Примеры <a class="anchor-link" href="#%d0%bf%d1%80%d0%b8%d0%bc%d0%b5%d1%80%d1%8b" aria-label="Link to this section: Примеры"></a></h2>
+<p>Переменные CSS предлагают такую же гибкость, что и переменные Sass, но без необходимости компиляции перед отправкой в браузер. Например, здесь мы сбрасываем шрифт нашей страницы и стили ссылок с помощью переменных CSS.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">body</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="k">font</span><span class="p">:</span> <span class="mi">1</span><span class="kt">rem</span><span class="o">/</span><span class="mf">1.5</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">bs</span><span class="o">-</span><span class="n">font</span><span class="o">-</span><span class="kc">sans-serif</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="nt">a</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="k">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">bs</span><span class="o">-</span><span class="kc">blue</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h2 id="grid-breakpoints">Grid breakpoints <a class="anchor-link" href="#grid-breakpoints" aria-label="Link to this section: Grid breakpoints"></a></h2>
-<p>While we include our grid breakpoints as CSS variables (except for <code>xs</code>), be aware that <strong>CSS variables do not work in media queries</strong>. This is by design in the CSS spec for variables, but may change in coming years with support for <code>env()</code> variables. Check out <a href="https://stackoverflow.com/a/47212942">this Stack Overflow answer</a> for some helpful links. In the mean time, you can use these variables in other CSS situations, as well as in your JavaScript.</p>
+</span></span></code></pre></div><h2 id="контрольные-точки-сетки">Контрольные точки сетки <a class="anchor-link" href="#%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%be%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d1%82%d0%be%d1%87%d0%ba%d0%b8-%d1%81%d0%b5%d1%82%d0%ba%d0%b8" aria-label="Link to this section: Контрольные точки сетки"></a></h2>
+<p>Хотя мы включаем контрольные точки нашей сетки как переменные CSS (кроме <code>xs</code>), имейте в виду, что <strong>переменные CSS не работают в медиа-запросах</strong>. Это предусмотрено спецификацией CSS для переменных, но может измениться в ближайшие годы с поддержкой переменных <code>env()</code>. Ознакомьтесь с <a href="https://stackoverflow.com/a/47212942">этим ответом на Stack Overflow</a> для некоторых полезных ссылок. Между тем, вы можете использовать эти переменные в других ситуациях CSS, а также в своем JavaScript.</p>
 
       </div>
     </main>

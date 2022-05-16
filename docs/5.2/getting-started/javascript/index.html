@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Bring Bootstrap to life with our optional JavaScript plugins. Learn about each plugin, our data and programmatic API options, and more.">
+<meta name="description" content="Оживите Bootstrap с помощью наших дополнительных плагинов JavaScript. Узнайте о каждом плагине, наших данных и параметрах программного API и многом другом.">
 <meta name="author" content="Марк Отто, Джейкоб Торнтон и контрибьюторы Bootstrap">
 <meta name="generator" content="Hugo 0.98.0">
 
@@ -36,13 +36,13 @@
 <meta name="twitter:site" content="@getbootstrap">
 <meta name="twitter:creator" content="@getbootstrap">
 <meta name="twitter:title" content="JavaScript">
-<meta name="twitter:description" content="Bring Bootstrap to life with our optional JavaScript plugins. Learn about each plugin, our data and programmatic API options, and more.">
+<meta name="twitter:description" content="Оживите Bootstrap с помощью наших дополнительных плагинов JavaScript. Узнайте о каждом плагине, наших данных и параметрах программного API и многом другом.">
 <meta name="twitter:image" content="https://getbootstrap.su/docs/5.2/assets/brand/bootstrap-social.png">
 
 <!-- Facebook -->
 <meta property="og:url" content="https://getbootstrap.su/docs/5.2/getting-started/javascript/">
 <meta property="og:title" content="JavaScript">
-<meta property="og:description" content="Bring Bootstrap to life with our optional JavaScript plugins. Learn about each plugin, our data and programmatic API options, and more.">
+<meta property="og:description" content="Оживите Bootstrap с помощью наших дополнительных плагинов JavaScript. Узнайте о каждом плагине, наших данных и параметрах программного API и многом другом.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://getbootstrap.su/docs/5.2/assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
@@ -493,7 +493,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <h1 class="bd-title mb-0" id="content">JavaScript</h1>
         </div>
-        <p class="bd-lead">Bring Bootstrap to life with our optional JavaScript plugins. Learn about each plugin, our data and programmatic API options, and more.</p>
+        <p class="bd-lead">Оживите Bootstrap с помощью наших дополнительных плагинов JavaScript. Узнайте о каждом плагине, наших данных и параметрах программного API и многом другом.</p>
         
       </div>
 
@@ -508,24 +508,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="collapse bd-toc-collapse" id="tocContents">
             <nav id="TableOfContents">
   <ul>
-    <li><a href="#individual-or-compiled">Individual or compiled</a></li>
-    <li><a href="#usage-with-javascript-frameworks">Usage with JavaScript frameworks</a></li>
-    <li><a href="#using-bootstrap-as-a-module">Using Bootstrap as a module</a></li>
-    <li><a href="#dependencies">Dependencies</a></li>
-    <li><a href="#still-want-to-use-jquery-its-possible">Still want to use jQuery? It&rsquo;s possible!</a></li>
-    <li><a href="#data-attributes">Data attributes</a></li>
-    <li><a href="#events">Events</a></li>
-    <li><a href="#programmatic-api">Programmatic API</a>
+    <li><a href="#индивидуальный-или-скомпилированный">Индивидуальный или скомпилированный</a></li>
+    <li><a href="#использование-с-фреймворками-javascript">Использование с фреймворками JavaScript</a></li>
+    <li><a href="#использование-bootstrap-как-модуля">Использование Bootstrap как модуля</a></li>
+    <li><a href="#зависимости">Зависимости</a></li>
+    <li><a href="#все-еще-хотите-использовать-jquery-это-возможно">Все еще хотите использовать jQuery? Это возможно!</a></li>
+    <li><a href="#атрибуты-данных">Атрибуты данных</a></li>
+    <li><a href="#события">События</a></li>
+    <li><a href="#программный-api">Программный API</a>
       <ul>
-        <li><a href="#css-selectors-in-constructors">CSS selectors in constructors</a></li>
-        <li><a href="#asynchronous-functions-and-transitions">Asynchronous functions and transitions</a></li>
-        <li><a href="#default-settings">Default settings</a></li>
+        <li><a href="#селекторы-css-в-конструкторах">Селекторы CSS в конструкторах</a></li>
+        <li><a href="#асинхронные-функции-и-переходы">Асинхронные функции и переходы</a></li>
+        <li><a href="#настройки-по-умолчанию">Настройки по умолчанию</a></li>
       </ul>
     </li>
-    <li><a href="#no-conflict-only-if-you-use-jquery">No conflict (only if you use jQuery)</a></li>
-    <li><a href="#version-numbers">Version numbers</a></li>
-    <li><a href="#no-special-fallbacks-when-javascript-is-disabled">No special fallbacks when JavaScript is disabled</a></li>
-    <li><a href="#sanitizer">Sanitizer</a></li>
+    <li><a href="#нет-конфликта-только-если-вы-используете-jquery">Нет конфликта (только если Вы используете jQuery)</a></li>
+    <li><a href="#номера-версий">Номера версий</a></li>
+    <li><a href="#никаких-специальных-резервных-вариантов-при-отключенном-javascript">Никаких специальных резервных вариантов при отключенном JavaScript</a></li>
+    <li><a href="#чистильщик">Чистильщик</a></li>
   </ul>
 </nav>
           </div>
@@ -535,19 +535,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="bd-content ps-lg-2">
         
 
-        <h2 id="individual-or-compiled">Individual or compiled <a class="anchor-link" href="#individual-or-compiled" aria-label="Link to this section: Individual or compiled"></a></h2>
-<p>Plugins can be included individually (using Bootstrap&rsquo;s individual <code>js/dist/*.js</code>), or all at once using <code>bootstrap.js</code> or the minified <code>bootstrap.min.js</code> (don&rsquo;t include both).</p>
-<p>If you use a bundler (Webpack, Rollup&hellip;), you can use <code>/js/dist/*.js</code> files which are UMD ready.</p>
-<h2 id="usage-with-javascript-frameworks">Usage with JavaScript frameworks <a class="anchor-link" href="#usage-with-javascript-frameworks" aria-label="Link to this section: Usage with JavaScript frameworks"></a></h2>
-<p>While the Bootstrap CSS can be used with any framework, <strong>the Bootstrap JavaScript is not fully compatible with JavaScript frameworks like React, Vue, and Angular</strong> which assume full knowledge of the DOM. Both Bootstrap and the framework may attempt to mutate the same DOM element, resulting in bugs like dropdowns that are stuck in the &ldquo;open&rdquo; position.</p>
-<p>A better alternative for those using this type of frameworks is to use a framework-specific package <strong>instead of</strong> the Bootstrap JavaScript. Here are some of the most popular options:</p>
+        <h2 id="индивидуальный-или-скомпилированный">Индивидуальный или скомпилированный <a class="anchor-link" href="#%d0%b8%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%b8%d0%bb%d0%b8-%d1%81%d0%ba%d0%be%d0%bc%d0%bf%d0%b8%d0%bb%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9" aria-label="Link to this section: Индивидуальный или скомпилированный"></a></h2>
+<p>Плагины могут быть включены индивидуально (с использованием отдельного файла <code>js/dist/*.js</code> в Bootstrap), или все сразу с помощью <code>bootstrap.js</code> или минифицированного <code>bootstrap.min.js</code> (не включайте оба).</p>
+<p>Если Вы используете bundler (Webpack, Rollup&hellip;), Вы можете использовать файлы <code>/js/dist/*.js</code> готовые для UMD.</p>
+<h2 id="использование-с-фреймворками-javascript">Использование с фреймворками JavaScript <a class="anchor-link" href="#%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%81-%d1%84%d1%80%d0%b5%d0%b9%d0%bc%d0%b2%d0%be%d1%80%d0%ba%d0%b0%d0%bc%d0%b8-javascript" aria-label="Link to this section: Использование с фреймворками JavaScript"></a></h2>
+<p>Хотя Bootstrap CSS можно использовать с любым фреймворком, <strong>Bootstrap JavaScript не полностью совместим с такими фреймворками JavaScript, как React, Vue и Angular</strong>, которые предполагают полное знание DOM. И Bootstrap, и фреймворк могут попытаться видоизменить один и тот же элемент DOM, что приведет к таким ошибкам, как раскрывающиеся списки, которые застревают в открытом положении.</p>
+<p>Лучшей альтернативой для тех, кто использует этот тип фреймворков, является использование специфичного для фреймворка пакета <strong>вместо</strong> Bootstrap JavaScript. Вот некоторые из самых популярных вариантов:</p>
 <ul>
 <li>React: <a href="https://react-bootstrap.github.io/">React Bootstrap</a></li>
-<li>Vue: <a href="https://bootstrap-vue.org/">BootstrapVue</a></li>
+<li>Vue: <a href="https://bootstrap-vue.org/">BootstrapVue</a> | <a href="https://bootstrap-vue.ru/">RU BootstrapVue</a></li>
 <li>Angular: <a href="https://ng-bootstrap.github.io/">ng-bootstrap</a></li>
 </ul>
-<h2 id="using-bootstrap-as-a-module">Using Bootstrap as a module <a class="anchor-link" href="#using-bootstrap-as-a-module" aria-label="Link to this section: Using Bootstrap as a module"></a></h2>
-<p>We provide a version of Bootstrap built as <code>ESM</code> (<code>bootstrap.esm.js</code> and <code>bootstrap.esm.min.js</code>) which allows you to use Bootstrap as a module in your browser, if your <a href="https://caniuse.com/es6-module">targeted browsers support it</a>.</p>
+<h2 id="использование-bootstrap-как-модуля">Использование Bootstrap как модуля <a class="anchor-link" href="#%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-bootstrap-%d0%ba%d0%b0%d0%ba-%d0%bc%d0%be%d0%b4%d1%83%d0%bb%d1%8f" aria-label="Link to this section: Использование Bootstrap как модуля"></a></h2>
+<p>Мы предоставляем версию Bootstrap, построенную как <code>ESM</code> (<code>bootstrap.esm.js</code> и <code>bootstrap.esm.min.js</code>), которая позволяет Вам использовать Bootstrap в качестве модуля в Вашем браузере, если Ваши <a href="https://caniuse.com/es6-module">целевые браузеры поддерживают его</a>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;module&#34;</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="kr">import</span> <span class="p">{</span> <span class="nx">Toast</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;bootstrap.esm.min.js&#39;</span>
 </span></span><span class="line"><span class="cl">
@@ -555,95 +555,95 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">toastNode</span> <span class="p">=&gt;</span> <span class="k">new</span> <span class="nx">Toast</span><span class="p">(</span><span class="nx">toastNode</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 </span></span></code></pre></div><div class="bd-callout bd-callout-warning">
-<h2 id="incompatible-plugins">Incompatible plugins <a class="anchor-link" href="#incompatible-plugins" aria-label="Link to this section: Incompatible plugins"></a></h2>
-<p>Due to browser limitations, some of our plugins, namely Dropdown, Tooltip and Popover plugins, cannot be used in a <code>&lt;script&gt;</code> tag with <code>module</code> type because they depend on Popper. For more information about the issue see <a href="https://v8.dev/features/modules#specifiers">here</a>.
+<h2 id="несовместимые-плагины">Несовместимые плагины <a class="anchor-link" href="#%d0%bd%d0%b5%d1%81%d0%be%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bc%d1%8b%d0%b5-%d0%bf%d0%bb%d0%b0%d0%b3%d0%b8%d0%bd%d1%8b" aria-label="Link to this section: Несовместимые плагины"></a></h2>
+<p>Из-за ограничений браузера некоторые из наших плагинов, а именно плагины Dropdown, Tooltip и Popover, нельзя использовать в теге <code>&lt;script&gt;</code> с типом <code>module</code>, потому что они зависят от Popper. Для получения дополнительной информации об этой проблеме см <a href="https://v8.dev/features/modules#specifiers">здесь</a>.
 </div>
 
-<h2 id="dependencies">Dependencies <a class="anchor-link" href="#dependencies" aria-label="Link to this section: Dependencies"></a></h2>
-<p>Some plugins and CSS components depend on other plugins. If you include plugins individually, make sure to check for these dependencies in the docs.</p>
-<p>Our dropdowns, popovers and tooltips also depend on <a href="https://popper.js.org/">Popper</a>.</p>
-<h2 id="still-want-to-use-jquery-its-possible">Still want to use jQuery? It&rsquo;s possible! <a class="anchor-link" href="#still-want-to-use-jquery-its-possible" aria-label="Link to this section: Still want to use jQuery? It&rsquo;s possible!"></a></h2>
-<p>Bootstrap 5 is designed to be used without jQuery, but it&rsquo;s still possible to use our components with jQuery. <strong>If Bootstrap detects <code>jQuery</code> in the <code>window</code> object</strong> it&rsquo;ll add all of our components in jQuery&rsquo;s plugin system; this means you&rsquo;ll be able to do <code>$('[data-bs-toggle=&quot;tooltip&quot;]').tooltip()</code> to enable tooltips. The same goes for our other components.</p>
-<h2 id="data-attributes">Data attributes <a class="anchor-link" href="#data-attributes" aria-label="Link to this section: Data attributes"></a></h2>
-<p>Nearly all Bootstrap plugins can be enabled and configured through HTML alone with data attributes (our preferred way of using JavaScript functionality). Be sure to <strong>only use one set of data attributes on a single element</strong> (e.g., you cannot trigger a tooltip and modal from the same button.)</p>
+<h2 id="зависимости">Зависимости <a class="anchor-link" href="#%d0%b7%d0%b0%d0%b2%d0%b8%d1%81%d0%b8%d0%bc%d0%be%d1%81%d1%82%d0%b8" aria-label="Link to this section: Зависимости"></a></h2>
+<p>Некоторые плагины и компоненты CSS зависят от других плагинов. Если Вы включаете плагины по отдельности, обязательно проверьте наличие этих зависимостей в документации.</p>
+<p>Наши раскрывающиеся списки, всплывающие окна и всплывающие подсказки также зависят от <a href="https://popper.js.org/">Popper</a>.</p>
+<h2 id="все-еще-хотите-использовать-jquery-это-возможно">Все еще хотите использовать jQuery? Это возможно! <a class="anchor-link" href="#%d0%b2%d1%81%d0%b5-%d0%b5%d1%89%d0%b5-%d1%85%d0%be%d1%82%d0%b8%d1%82%d0%b5-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d1%8c-jquery-%d1%8d%d1%82%d0%be-%d0%b2%d0%be%d0%b7%d0%bc%d0%be%d0%b6%d0%bd%d0%be" aria-label="Link to this section: Все еще хотите использовать jQuery? Это возможно!"></a></h2>
+<p>Bootstrap 5 разработан для использования без jQuery, но все же можно использовать наши компоненты с jQuery. <strong>Если Bootstrap обнаружит <code>jQuery</code> в объекте <code>window</code></strong>, он добавит все наши компоненты в систему плагинов jQuery; это означает, что вы сможете использовать <code>$('[data-bs-toggle=&quot;tooltip&quot;]').tooltip()</code> для включения всплывающих подсказок. То же самое и с другими нашими компонентами.</p>
+<h2 id="атрибуты-данных">Атрибуты данных <a class="anchor-link" href="#%d0%b0%d1%82%d1%80%d0%b8%d0%b1%d1%83%d1%82%d1%8b-%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d1%85" aria-label="Link to this section: Атрибуты данных"></a></h2>
+<p>Почти все плагины Bootstrap можно включить и настроить только с помощью HTML с атрибутами данных (наш предпочтительный способ использования функциональности JavaScript). Обязательно <strong>используйте только один набор атрибутов данных для одного элемента</strong> (например, Вы не можете запускать всплывающую подсказку и модальное окно с помощью одной кнопки.)</p>
 <div class="bd-callout bd-callout-warning">
-<h2 id="selectors">Selectors <a class="anchor-link" href="#selectors" aria-label="Link to this section: Selectors"></a></h2>
-<p>Currently to query DOM elements we use the native methods <code>querySelector</code> and <code>querySelectorAll</code> for performance reasons, so you have to use <a href="https://www.w3.org/TR/CSS21/syndata.html#value-def-identifier">valid selectors</a>.
-If you use special selectors, for example: <code>collapse:Example</code> be sure to escape them.
+<h2 id="селекторы">Селекторы <a class="anchor-link" href="#%d1%81%d0%b5%d0%bb%d0%b5%d0%ba%d1%82%d0%be%d1%80%d1%8b" aria-label="Link to this section: Селекторы"></a></h2>
+<p>В настоящее время для запросов к элементам DOM мы используем собственные методы <code>querySelector</code> и <code>querySelectorAll</code> из соображений производительности, поэтому Вы должны использовать <a href="https://www.w3.org/TR/CSS21/syndata.html#value-def-identifier">допустимые селекторы</a>.
+Если Вы используете специальные селекторы, например: <code>collapse:Example</code>, не забудьте их экранировать.
 </div>
 
-<h2 id="events">Events <a class="anchor-link" href="#events" aria-label="Link to this section: Events"></a></h2>
-<p>Bootstrap provides custom events for most plugins&rsquo; unique actions. Generally, these come in an infinitive and past participle form - where the infinitive (ex. <code>show</code>) is triggered at the start of an event, and its past participle form (ex. <code>shown</code>) is triggered on the completion of an action.</p>
-<p>All infinitive events provide <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault"><code>preventDefault()</code></a> functionality. This provides the ability to stop the execution of an action before it starts. Returning false from an event handler will also automatically call <code>preventDefault()</code>.</p>
+<h2 id="события">События <a class="anchor-link" href="#%d1%81%d0%be%d0%b1%d1%8b%d1%82%d0%b8%d1%8f" aria-label="Link to this section: События"></a></h2>
+<p>Bootstrap предоставляет настраиваемые события для уникальных действий большинства плагинов. Как правило, они бывают в форме причастия прошедшего времени и инфинитива, где инфинитив (например, <code>show</code>) запускается в начале события, а его форма причастия прошедшего времени (например, <code>shown</code>) запускается после завершения действия.</p>
+<p>Все инфинитивные события обеспечивают функциональность <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault"><code>preventDefault()</code></a>. Это дает возможность остановить выполнение действия до его запуска. Возврат false от обработчика событий также автоматически вызывает <code>preventDefault()</code>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">myModal</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;myModal&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">myModal</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;show.bs.modal&#39;</span><span class="p">,</span> <span class="nx">event</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">event</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">()</span> <span class="c1">// stops modal from being shown
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">event</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">()</span> <span class="c1">// останавливает отображение модального окна
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">})</span>
 </span></span></code></pre></div><div class="bd-callout bd-callout-warning">
-<h2 id="jquery-events">jQuery events <a class="anchor-link" href="#jquery-events" aria-label="Link to this section: jQuery events"></a></h2>
-<p>Bootstrap will detect jQuery if <code>jQuery</code> is present in the <code>window</code> object and there is no <code>data-bs-no-jquery</code> attribute set on <code>&lt;body&gt;</code>. If jQuery is found, Bootstrap will emit events thanks to jQuery&rsquo;s event system. So if you want to listen to Bootstrap&rsquo;s events, you&rsquo;ll have to use the jQuery methods (<code>.on</code>, <code>.one</code>) instead of <code>addEventListener</code>.</p>
+<h2 id="события-jquery">События jQuery <a class="anchor-link" href="#%d1%81%d0%be%d0%b1%d1%8b%d1%82%d0%b8%d1%8f-jquery" aria-label="Link to this section: События jQuery"></a></h2>
+<p>Bootstrap обнаружит jQuery, если <code>jQuery</code> присутствует в объекте <code>window</code>, а атрибут <code>data-bs-no-jquery</code> не установлен в <code>&lt;body&gt;</code>. Если jQuery найден, Bootstrap будет генерировать события благодаря системе событий jQuery. Поэтому, если Вы хотите прослушивать события Bootstrap, вам придется использовать методы jQuery (<code>.on</code>, <code>.one</code>) вместо <code>addEventListener</code>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#myTab a&#39;</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;shown.bs.tab&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="c1">// сделайте что-нибудь...
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">})</span>
 </span></span></code></pre></div>
 </div>
 
-<h2 id="programmatic-api">Programmatic API <a class="anchor-link" href="#programmatic-api" aria-label="Link to this section: Programmatic API"></a></h2>
-<p>All constructors accept an optional options object or nothing (which initiates a plugin with its default behavior):</p>
+<h2 id="программный-api">Программный API <a class="anchor-link" href="#%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d0%bd%d1%8b%d0%b9-api" aria-label="Link to this section: Программный API"></a></h2>
+<p>Все конструкторы принимают необязательный объект параметров или ничего (который запускает плагин с его поведением по умолчанию):</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">myModalEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;myModal&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">modal</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Modal</span><span class="p">(</span><span class="nx">myModalEl</span><span class="p">)</span> <span class="c1">// initialized with defaults
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">modal1</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Modal</span><span class="p">(</span><span class="nx">myModalEl</span><span class="p">,</span> <span class="p">{</span> <span class="nx">keyboard</span><span class="o">:</span> <span class="kc">false</span> <span class="p">})</span> <span class="c1">// initialized with no keyboard
-</span></span></span></code></pre></div><p>If you&rsquo;d like to get a particular plugin instance, each plugin exposes a <code>getInstance</code> method. In order to retrieve it directly from an element, do this: <code>bootstrap.Popover.getInstance(myPopoverEl)</code>.</p>
-<h3 id="css-selectors-in-constructors">CSS selectors in constructors <a class="anchor-link" href="#css-selectors-in-constructors" aria-label="Link to this section: CSS selectors in constructors"></a></h3>
-<p>You can also use a CSS selector as the first argument instead of a DOM element to initialize the plugin. Currently the element for the plugin is found by the <code>querySelector</code> method since our plugins support a single element only.</p>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">modal</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Modal</span><span class="p">(</span><span class="nx">myModalEl</span><span class="p">)</span> <span class="c1">// инициализирован по умолчанию
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">modal1</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Modal</span><span class="p">(</span><span class="nx">myModalEl</span><span class="p">,</span> <span class="p">{</span> <span class="nx">keyboard</span><span class="o">:</span> <span class="kc">false</span> <span class="p">})</span> <span class="c1">// инициализирован без клавиатуры
+</span></span></span></code></pre></div><p>Если Вы хотите получить конкретный экземпляр плагина, каждый плагин предоставляет метод <code>getInstance</code>. Чтобы получить его непосредственно из элемента, сделайте следующее: <code>bootstrap.Popover.getInstance(myPopoverEl)</code>.</p>
+<h3 id="селекторы-css-в-конструкторах">Селекторы CSS в конструкторах <a class="anchor-link" href="#%d1%81%d0%b5%d0%bb%d0%b5%d0%ba%d1%82%d0%be%d1%80%d1%8b-css-%d0%b2-%d0%ba%d0%be%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%ba%d1%82%d0%be%d1%80%d0%b0%d1%85" aria-label="Link to this section: Селекторы CSS в конструкторах"></a></h3>
+<p>Вы также можете использовать селектор CSS в качестве первого аргумента вместо элемента DOM для инициализации плагина. В настоящее время элемент для плагина находится с помощью метода <code>querySelector</code>, поскольку наши плагины поддерживают только один элемент.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">modal</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Modal</span><span class="p">(</span><span class="s1">&#39;#myModal&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">dropdown</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Dropdown</span><span class="p">(</span><span class="s1">&#39;[data-bs-toggle=&#34;dropdown&#34;]&#39;</span><span class="p">)</span>
-</span></span></code></pre></div><h3 id="asynchronous-functions-and-transitions">Asynchronous functions and transitions <a class="anchor-link" href="#asynchronous-functions-and-transitions" aria-label="Link to this section: Asynchronous functions and transitions"></a></h3>
-<p>All programmatic API methods are <strong>asynchronous</strong> and return to the caller once the transition is started but <strong>before it ends</strong>.</p>
-<p>In order to execute an action once the transition is complete, you can listen to the corresponding event.</p>
+</span></span></code></pre></div><h3 id="асинхронные-функции-и-переходы">Асинхронные функции и переходы <a class="anchor-link" href="#%d0%b0%d1%81%d0%b8%d0%bd%d1%85%d1%80%d0%be%d0%bd%d0%bd%d1%8b%d0%b5-%d1%84%d1%83%d0%bd%d0%ba%d1%86%d0%b8%d0%b8-%d0%b8-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d1%8b" aria-label="Link to this section: Асинхронные функции и переходы"></a></h3>
+<p>Все программные методы API <strong>асинхронны</strong>и возвращаются вызывающей стороне после начала перехода, но <strong>до его завершения</strong>.</p>
+<p>Чтобы выполнить действие после завершения перехода, Вы можете прослушать соответствующее событие.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">myCollapseEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;myCollapse&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">myCollapseEl</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;shown.bs.collapse&#39;</span><span class="p">,</span> <span class="nx">event</span> <span class="p">=&gt;</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="c1">// Action to execute once the collapsible area is expanded
+</span></span><span class="line"><span class="cl">  <span class="c1">// Действие, выполняемое после раскрытия сворачиваемой области
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">})</span>
-</span></span></code></pre></div><p>In addition a method call on a <strong>transitioning component will be ignored</strong>.</p>
+</span></span></code></pre></div><p>Кроме того, вызов метода <strong>переходного компонента будет проигнорирован</strong>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">myCarouselEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;myCarousel&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">carousel</span> <span class="o">=</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Carousel</span><span class="p">.</span><span class="nx">getInstance</span><span class="p">(</span><span class="nx">myCarouselEl</span><span class="p">)</span> <span class="c1">// Retrieve a Carousel instance
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">carousel</span> <span class="o">=</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Carousel</span><span class="p">.</span><span class="nx">getInstance</span><span class="p">(</span><span class="nx">myCarouselEl</span><span class="p">)</span> <span class="c1">// Получить экземпляр карусели
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
 </span></span><span class="line"><span class="cl"><span class="nx">myCarouselEl</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;slid.bs.carousel&#39;</span><span class="p">,</span> <span class="nx">event</span> <span class="p">=&gt;</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">carousel</span><span class="p">.</span><span class="nx">to</span><span class="p">(</span><span class="s1">&#39;2&#39;</span><span class="p">)</span> <span class="c1">// Will slide to the slide 2 as soon as the transition to slide 1 is finished
+</span></span><span class="line"><span class="cl">  <span class="nx">carousel</span><span class="p">.</span><span class="nx">to</span><span class="p">(</span><span class="s1">&#39;2&#39;</span><span class="p">)</span> <span class="c1">// Перейдет к слайду 2, как только переход к слайду 1 завершится
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">})</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nx">carousel</span><span class="p">.</span><span class="nx">to</span><span class="p">(</span><span class="s1">&#39;1&#39;</span><span class="p">)</span> <span class="c1">// Will start sliding to the slide 1 and returns to the caller
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">carousel</span><span class="p">.</span><span class="nx">to</span><span class="p">(</span><span class="s1">&#39;2&#39;</span><span class="p">)</span> <span class="c1">// !! Will be ignored, as the transition to the slide 1 is not finished !!
-</span></span></span></code></pre></div><h3 id="default-settings">Default settings <a class="anchor-link" href="#default-settings" aria-label="Link to this section: Default settings"></a></h3>
-<p>You can change the default settings for a plugin by modifying the plugin&rsquo;s <code>Constructor.Default</code> object:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// changes default for the modal plugin&#39;s `keyboard` option to false
+</span></span><span class="line"><span class="cl"><span class="nx">carousel</span><span class="p">.</span><span class="nx">to</span><span class="p">(</span><span class="s1">&#39;1&#39;</span><span class="p">)</span> <span class="c1">// Начнется переход к слайду 1 и вернется к вызывающему
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">carousel</span><span class="p">.</span><span class="nx">to</span><span class="p">(</span><span class="s1">&#39;2&#39;</span><span class="p">)</span> <span class="c1">// !! Будет проигнорировано, так как переход к слайду 1 не завершен !!
+</span></span></span></code></pre></div><h3 id="настройки-по-умолчанию">Настройки по умолчанию <a class="anchor-link" href="#%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b8-%d0%bf%d0%be-%d1%83%d0%bc%d0%be%d0%bb%d1%87%d0%b0%d0%bd%d0%b8%d1%8e" aria-label="Link to this section: Настройки по умолчанию"></a></h3>
+<p>Вы можете изменить настройки плагина по умолчанию, изменив его объект <code>Constructor.Default</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// изменяет значение по умолчанию для опции `keyboard` модального плагина на false
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Modal</span><span class="p">.</span><span class="nx">Default</span><span class="p">.</span><span class="nx">keyboard</span> <span class="o">=</span> <span class="kc">false</span>
-</span></span></code></pre></div><h2 id="no-conflict-only-if-you-use-jquery">No conflict (only if you use jQuery) <a class="anchor-link" href="#no-conflict-only-if-you-use-jquery" aria-label="Link to this section: No conflict (only if you use jQuery)"></a></h2>
-<p>Sometimes it is necessary to use Bootstrap plugins with other UI frameworks. In these circumstances, namespace collisions can occasionally occur. If this happens, you may call <code>.noConflict</code> on the plugin you wish to revert the value of.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">bootstrapButton</span> <span class="o">=</span> <span class="nx">$</span><span class="p">.</span><span class="nx">fn</span><span class="p">.</span><span class="nx">button</span><span class="p">.</span><span class="nx">noConflict</span><span class="p">()</span> <span class="c1">// return $.fn.button to previously assigned value
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">$</span><span class="p">.</span><span class="nx">fn</span><span class="p">.</span><span class="nx">bootstrapBtn</span> <span class="o">=</span> <span class="nx">bootstrapButton</span> <span class="c1">// give $().bootstrapBtn the Bootstrap functionality
-</span></span></span></code></pre></div><h2 id="version-numbers">Version numbers <a class="anchor-link" href="#version-numbers" aria-label="Link to this section: Version numbers"></a></h2>
-<p>The version of each of Bootstrap&rsquo;s plugins can be accessed via the <code>VERSION</code> property of the plugin&rsquo;s constructor. For example, for the tooltip plugin:</p>
+</span></span></code></pre></div><h2 id="нет-конфликта-только-если-вы-используете-jquery">Нет конфликта (только если Вы используете jQuery) <a class="anchor-link" href="#%d0%bd%d0%b5%d1%82-%d0%ba%d0%be%d0%bd%d1%84%d0%bb%d0%b8%d0%ba%d1%82%d0%b0-%d1%82%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d0%b5%d1%81%d0%bb%d0%b8-%d0%b2%d1%8b-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d1%83%d0%b5%d1%82%d0%b5-jquery" aria-label="Link to this section: Нет конфликта (только если Вы используете jQuery)"></a></h2>
+<p>Иногда необходимо использовать плагины Bootstrap с другими фреймворками пользовательского интерфейса. В этих обстоятельствах иногда могут возникать конфликты пространств имен. Если это произойдет, Вы можете вызвать <code>.noConflict</code> в плагине, значение которого Вы хотите вернуть.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">bootstrapButton</span> <span class="o">=</span> <span class="nx">$</span><span class="p">.</span><span class="nx">fn</span><span class="p">.</span><span class="nx">button</span><span class="p">.</span><span class="nx">noConflict</span><span class="p">()</span> <span class="c1">// return $.fn.button к ранее присвоенному значению
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">$</span><span class="p">.</span><span class="nx">fn</span><span class="p">.</span><span class="nx">bootstrapBtn</span> <span class="o">=</span> <span class="nx">bootstrapButton</span> <span class="c1">// give $().bootstrapBtn функциональность Bootstrap
+</span></span></span></code></pre></div><h2 id="номера-версий">Номера версий <a class="anchor-link" href="#%d0%bd%d0%be%d0%bc%d0%b5%d1%80%d0%b0-%d0%b2%d0%b5%d1%80%d1%81%d0%b8%d0%b9" aria-label="Link to this section: Номера версий"></a></h2>
+<p>Доступ к версии каждого из плагинов Bootstrap можно получить через свойство <code>VERSION</code> конструктора плагина. Например, для плагина всплывающей подсказки:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tooltip</span><span class="p">.</span><span class="nx">VERSION</span> <span class="c1">// =&gt; &#34;5.2.0-beta1&#34;
-</span></span></span></code></pre></div><h2 id="no-special-fallbacks-when-javascript-is-disabled">No special fallbacks when JavaScript is disabled <a class="anchor-link" href="#no-special-fallbacks-when-javascript-is-disabled" aria-label="Link to this section: No special fallbacks when JavaScript is disabled"></a></h2>
-<p>Bootstrap&rsquo;s plugins don&rsquo;t fall back particularly gracefully when JavaScript is disabled. If you care about the user experience in this case, use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript"><code>&lt;noscript&gt;</code></a> to explain the situation (and how to re-enable JavaScript) to your users, and/or add your own custom fallbacks.</p>
+</span></span></span></code></pre></div><h2 id="никаких-специальных-резервных-вариантов-при-отключенном-javascript">Никаких специальных резервных вариантов при отключенном JavaScript <a class="anchor-link" href="#%d0%bd%d0%b8%d0%ba%d0%b0%d0%ba%d0%b8%d1%85-%d1%81%d0%bf%d0%b5%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d1%85-%d1%80%d0%b5%d0%b7%d0%b5%d1%80%d0%b2%d0%bd%d1%8b%d1%85-%d0%b2%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%82%d0%be%d0%b2-%d0%bf%d1%80%d0%b8-%d0%be%d1%82%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%bd%d0%be%d0%bc-javascript" aria-label="Link to this section: Никаких специальных резервных вариантов при отключенном JavaScript"></a></h2>
+<p>Плагины Bootstrap не особо изящен при отключенном JavaScript. Если в этом случае Вам важен опыт пользователя, используйте <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript"><code>&lt;noscript&gt;</code></a>, чтобы объяснить ситуацию (и как повторно включить JavaScript) для Ваших пользователей и/или добавить свои собственные резервные варианты.</p>
 <div class="bd-callout bd-callout-warning">
-<h5 id="third-party-libraries">Third-party libraries <a class="anchor-link" href="#third-party-libraries" aria-label="Link to this section: Third-party libraries"></a></h5>
-<p><strong>Bootstrap does not officially support third-party JavaScript libraries</strong> like Prototype or jQuery UI. Despite <code>.noConflict</code> and namespaced events, there may be compatibility problems that you need to fix on your own.
+<h5 id="сторонние-библиотеки">Сторонние библиотеки <a class="anchor-link" href="#%d1%81%d1%82%d0%be%d1%80%d0%be%d0%bd%d0%bd%d0%b8%d0%b5-%d0%b1%d0%b8%d0%b1%d0%bb%d0%b8%d0%be%d1%82%d0%b5%d0%ba%d0%b8" aria-label="Link to this section: Сторонние библиотеки"></a></h5>
+<p><strong>Bootstrap официально не поддерживает сторонние библиотеки JavaScript</strong> , такие как Prototype или jQuery UI. Несмотря на <code>.noConflict</code> и события в пространстве имен, могут возникнуть проблемы совместимости, которые Вам нужно исправить самостоятельно.
 </div>
 
-<h2 id="sanitizer">Sanitizer <a class="anchor-link" href="#sanitizer" aria-label="Link to this section: Sanitizer"></a></h2>
-<p>Tooltips and Popovers use our built-in sanitizer to sanitize options which accept HTML.</p>
-<p>The default <code>allowList</code> value is the following:</p>
+<h2 id="чистильщик">Чистильщик <a class="anchor-link" href="#%d1%87%d0%b8%d1%81%d1%82%d0%b8%d0%bb%d1%8c%d1%89%d0%b8%d0%ba" aria-label="Link to this section: Чистильщик"></a></h2>
+<p>Всплывающие подсказки и всплывающие окна используют наше встроенное средство очистки для очистки параметров, принимающих HTML.</p>
+<p>Значение <code>allowList</code> по умолчанию следующее:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">ARIA_ATTRIBUTE_PATTERN</span> <span class="o">=</span> <span class="sr">/^aria-[\w-]*$/i</span>
 </span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">DefaultAllowlist</span> <span class="o">=</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="c1">// Global attributes allowed on any supplied element below.
+</span></span><span class="line"><span class="cl">  <span class="c1">// Глобальные атрибуты разрешены для любого указанного ниже элемента.
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="s1">&#39;*&#39;</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;class&#39;</span><span class="p">,</span> <span class="s1">&#39;dir&#39;</span><span class="p">,</span> <span class="s1">&#39;id&#39;</span><span class="p">,</span> <span class="s1">&#39;lang&#39;</span><span class="p">,</span> <span class="s1">&#39;role&#39;</span><span class="p">,</span> <span class="nx">ARIA_ATTRIBUTE_PATTERN</span><span class="p">],</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">a</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;target&#39;</span><span class="p">,</span> <span class="s1">&#39;href&#39;</span><span class="p">,</span> <span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;rel&#39;</span><span class="p">],</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">area</span><span class="o">:</span> <span class="p">[],</span>
@@ -675,20 +675,20 @@ If you use special selectors, for example: <code>collapse:Example</code> be sure
 </span></span><span class="line"><span class="cl">  <span class="nx">u</span><span class="o">:</span> <span class="p">[],</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">ul</span><span class="o">:</span> <span class="p">[]</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>If you want to add new values to this default <code>allowList</code> you can do the following:</p>
+</span></span></code></pre></div><p>Если вы хотите добавить новые значения в этот список разрешений по умолчанию <code>allowList</code>, вы можете сделать следующее:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">myDefaultAllowList</span> <span class="o">=</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tooltip</span><span class="p">.</span><span class="nx">Default</span><span class="p">.</span><span class="nx">allowList</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// To allow table elements
+</span></span><span class="line"><span class="cl"><span class="c1">// Чтобы разрешить элементы таблицы
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">myDefaultAllowList</span><span class="p">.</span><span class="nx">table</span> <span class="o">=</span> <span class="p">[]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// To allow td elements and data-bs-option attributes on td elements
+</span></span><span class="line"><span class="cl"><span class="c1">// Чтобы разрешить элементы td и атрибуты параметров данных в элементах td
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">myDefaultAllowList</span><span class="p">.</span><span class="nx">td</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;data-bs-option&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// You can push your custom regex to validate your attributes.
-</span></span></span><span class="line"><span class="cl"><span class="c1">// Be careful about your regular expressions being too lax
+</span></span><span class="line"><span class="cl"><span class="c1">// Вы можете отправить собственное регулярное выражение для проверки своих атрибутов.
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Будьте осторожны, чтобы Ваши регулярные выражения были слишком слабыми
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">myCustomRegex</span> <span class="o">=</span> <span class="sr">/^data-my-app-[\w-]+/</span>
 </span></span><span class="line"><span class="cl"><span class="nx">myDefaultAllowList</span><span class="p">[</span><span class="s1">&#39;*&#39;</span><span class="p">].</span><span class="nx">push</span><span class="p">(</span><span class="nx">myCustomRegex</span><span class="p">)</span>
-</span></span></code></pre></div><p>If you want to bypass our sanitizer because you prefer to use a dedicated library, for example <a href="https://www.npmjs.com/package/dompurify">DOMPurify</a>, you should do the following:</p>
+</span></span></code></pre></div><p>Если Вы хотите обойти нашу очистку, потому что предпочитаете использовать специальную библиотеку, например <a href="https://www.npmjs.com/package/dompurify">DOMPurify</a>, Вам следует сделать следующее:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">yourTooltipEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;yourTooltip&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">tooltip</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tooltip</span><span class="p">(</span><span class="nx">yourTooltipEl</span><span class="p">,</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">sanitizeFn</span><span class="p">(</span><span class="nx">content</span><span class="p">)</span> <span class="p">{</span>

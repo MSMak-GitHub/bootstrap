@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Help develop Bootstrap with our documentation build scripts and tests.">
+<meta name="description" content="Помогите разработать Bootstrap с помощью наших сценариев сборки документации и тестов.">
 <meta name="author" content="Марк Отто, Джейкоб Торнтон и контрибьюторы Bootstrap">
 <meta name="generator" content="Hugo 0.98.0">
 
 <meta name="docsearch:language" content="ru">
 <meta name="docsearch:version" content="5.2">
 
-<title>Contribute · Bootstrap v5.2</title>
+<title>Вклад · Bootstrap v5.2</title>
 
 <link rel="canonical" href="https://getbootstrap.su/docs/5.2/getting-started/contribute/"><link rel="preconnect" href="https://BH4D9OD16A-dsn.algolia.net" crossorigin>
 
@@ -35,14 +35,14 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@getbootstrap">
 <meta name="twitter:creator" content="@getbootstrap">
-<meta name="twitter:title" content="Contribute">
-<meta name="twitter:description" content="Help develop Bootstrap with our documentation build scripts and tests.">
+<meta name="twitter:title" content="Вклад">
+<meta name="twitter:description" content="Помогите разработать Bootstrap с помощью наших сценариев сборки документации и тестов.">
 <meta name="twitter:image" content="https://getbootstrap.su/docs/5.2/assets/brand/bootstrap-social.png">
 
 <!-- Facebook -->
 <meta property="og:url" content="https://getbootstrap.su/docs/5.2/getting-started/contribute/">
-<meta property="og:title" content="Contribute">
-<meta property="og:description" content="Help develop Bootstrap with our documentation build scripts and tests.">
+<meta property="og:title" content="Вклад">
+<meta property="og:description" content="Помогите разработать Bootstrap с помощью наших сценариев сборки документации и тестов.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://getbootstrap.su/docs/5.2/assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
@@ -491,9 +491,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a class="btn btn-sm btn-bd-light mb-3 mb-md-0" href="https://getbootstrap.com/docs/5.2/getting-started/contribute" title="" target="_blank" rel="noopener">Оригинал</a>
             <a class="btn btn-sm btn-bd-light mb-3 mb-md-0" href="https://github.com/ruBootstrap/bootstrap/blob/main-ru/site/content/docs/5.2/getting-started/contribute.md" title="Просмотрите и отредактируйте этот файл на GitHub" target="_blank" rel="noopener">На GitHub</a>
           </div>
-          <h1 class="bd-title mb-0" id="content">Contribute</h1>
+          <h1 class="bd-title mb-0" id="content">Вклад</h1>
         </div>
-        <p class="bd-lead">Help develop Bootstrap with our documentation build scripts and tests.</p>
+        <p class="bd-lead">Помогите разработать Bootstrap с помощью наших сценариев сборки документации и тестов.</p>
         
       </div>
 
@@ -508,13 +508,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="collapse bd-toc-collapse" id="tocContents">
             <nav id="TableOfContents">
   <ul>
-    <li><a href="#tooling-setup">Tooling setup</a></li>
-    <li><a href="#using-npm-scripts">Using npm scripts</a></li>
+    <li><a href="#настройка-инструмента">Настройка инструмента</a></li>
+    <li><a href="#использование-скриптов-npm">Использование скриптов npm</a></li>
     <li><a href="#sass">Sass</a></li>
-    <li><a href="#autoprefixer">Autoprefixer</a></li>
+    <li><a href="#автопрефиксер">Автопрефиксер</a></li>
     <li><a href="#rtlcss">RTLCSS</a></li>
-    <li><a href="#local-documentation">Local documentation</a></li>
-    <li><a href="#troubleshooting">Troubleshooting</a></li>
+    <li><a href="#локальная-документация">Локальная документация</a></li>
+    <li><a href="#исправление-проблем">Исправление проблем</a></li>
   </ul>
 </nav>
           </div>
@@ -524,40 +524,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="bd-content ps-lg-2">
         
 
-        <h2 id="tooling-setup">Tooling setup <a class="anchor-link" href="#tooling-setup" aria-label="Link to this section: Tooling setup"></a></h2>
-<p>Bootstrap uses <a href="https://docs.npmjs.com/misc/scripts/">npm scripts</a> to build the documentation and compile source files. Our <a href="https://github.com/twbs/bootstrap/blob/v5.2.0-beta1/package.json">package.json</a> houses these scripts for compiling code, running tests, and more. These aren&rsquo;t intended for use outside our repository and documentation.</p>
-<p>To use our build system and run our documentation locally, you&rsquo;ll need a copy of Bootstrap&rsquo;s source files and Node. Follow these steps and you should be ready to rock:</p>
+        <h2 id="настройка-инструмента">Настройка инструмента <a class="anchor-link" href="#%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-%d0%b8%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d0%b0" aria-label="Link to this section: Настройка инструмента"></a></h2>
+<p>Bootstrap использует <a href="https://docs.npmjs.com/misc/scripts/">сценарии npm</a> для создания документации и компиляции исходных файлов. Наш <a href="https://github.com/twbs/bootstrap/blob/v5.2.0-beta1/package.json">package.json</a> содержит эти сценарии для компиляции кода, запуска тестов и многого другого. Они не предназначены для использования за пределами нашего репозитория и документации.</p>
+<p>Чтобы использовать нашу систему сборки и запускать нашу документацию локально, Вам понадобится копия исходных файлов Bootstrap и Node. Выполните следующие шаги, и Вы должны быть готовы к игре:</p>
 <ol>
-<li><a href="https://nodejs.org/en/download/">Download and install Node.js</a>, which we use to manage our dependencies.</li>
-<li>Either <a href="https://github.com/twbs/bootstrap/archive/v5.2.0-beta1.zip">download Bootstrap&rsquo;s sources</a> or fork <a href="https://github.com/twbs/bootstrap">Bootstrap&rsquo;s repository</a>.</li>
-<li>Navigate to the root <code>/bootstrap</code> directory and run <code>npm install</code> to install our local dependencies listed in <a href="https://github.com/twbs/bootstrap/blob/v5.2.0-beta1/package.json">package.json</a>.</li>
+<li><a href="https://nodejs.org/en/download/">Загрузите и установите Node.js</a>, который мы используем для управления нашими зависимостями.</li>
+<li>Либо <a href="https://github.com/twbs/bootstrap/archive/v5.2.0-beta1.zip">загрузите исходные коды Bootstrap</a>, либо сделайте &ldquo;форк&rdquo; <a href="https://github.com/twbs/bootstrap">репозитория Bootstrap</a>.</li>
+<li>Перейдите в корневой каталог <code>/bootstrap</code> и запустите <code>npm install</code>, чтобы установить наши локальные зависимости, перечисленные в <a href="https://github.com/twbs/bootstrap/blob/v5.2.0-beta1/package.json">package.json</a>.</li>
 </ol>
-<p>When completed, you&rsquo;ll be able to run the various commands provided from the command line.</p>
-<h2 id="using-npm-scripts">Using npm scripts <a class="anchor-link" href="#using-npm-scripts" aria-label="Link to this section: Using npm scripts"></a></h2>
-<p>Our <a href="https://github.com/twbs/bootstrap/blob/v5.2.0-beta1/package.json">package.json</a> includes numerous tasks for developing the project. Run <code>npm run</code> to see all the npm scripts in your terminal. <strong>Primary tasks include:</strong></p>
+<p>По завершении Вы сможете запускать различные команды из командной строки.</p>
+<h2 id="использование-скриптов-npm">Использование скриптов npm <a class="anchor-link" href="#%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%81%d0%ba%d1%80%d0%b8%d0%bf%d1%82%d0%be%d0%b2-npm" aria-label="Link to this section: Использование скриптов npm"></a></h2>
+<p>Наш <a href="https://github.com/twbs/bootstrap/blob/v5.2.0-beta1/package.json">package.json</a> включает множество задач для разработки проекта. Запустите <code>npm run</code>, чтобы увидеть все сценарии npm в Вашем терминале. <strong>Основные задачи включают:</strong></p>
 <div class="table-responsive"><table class="table">
 <thead>
 <tr>
-<th>Task</th>
-<th>Description</th>
+<th>Задача</th>
+<th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>npm start</code></td>
-<td>Compiles CSS and JavaScript, builds the documentation, and starts a local server.</td>
+<td>Компилирует CSS и JavaScript, создает документацию и запускает локальный сервер.</td>
 </tr>
 <tr>
 <td><code>npm run dist</code></td>
-<td>Creates the <code>dist/</code> directory with compiled files. Uses <a href="https://sass-lang.com/">Sass</a>, <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a>, and <a href="https://github.com/terser/terser">terser</a>.</td>
+<td>Создает каталог <code>dist/</code> с скомпилированными файлами. Использует <a href="https://sass-lang.com/">Sass</a>, <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> и <a href="https://github.com/terser/terser">terser</a>.</td>
 </tr>
 <tr>
 <td><code>npm test</code></td>
-<td>Runs tests locally after running <code>npm run dist</code></td>
+<td>Запускает тесты локально после запуска <code>npm run dist</code>.</td>
 </tr>
 <tr>
 <td><code>npm run docs-serve</code></td>
-<td>Builds and runs the documentation locally.</td>
+<td>Создает и запускает документацию локально.</td>
 </tr>
 </tbody>
 </table></div>
@@ -567,23 +567,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <h2 id="sass">Sass <a class="anchor-link" href="#sass" aria-label="Link to this section: Sass"></a></h2>
-<p>Bootstrap uses <a href="https://sass-lang.com/dart-sass">Dart Sass</a> for compiling our Sass source files into CSS files (included in our build process), and we recommend you do the same if you&rsquo;re compiling Sass using your own asset pipeline. We previously used Node Sass for Bootstrap v4, but LibSass and packages built on top of it, including Node Sass, are now <a href="https://sass-lang.com/blog/libsass-is-deprecated">deprecated</a>.</p>
-<p>Dart Sass uses a rounding precision of 10 and for efficiency reasons does not allow adjustment of this value. We don&rsquo;t lower this precision during further processing of our generated CSS, such as during minification, but if you chose to do so we recommend maintaining a precision of at least 6 to prevent issues with browser rounding.</p>
-<h2 id="autoprefixer">Autoprefixer <a class="anchor-link" href="#autoprefixer" aria-label="Link to this section: Autoprefixer"></a></h2>
-<p>Bootstrap uses <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> (included in our build process) to automatically add vendor prefixes to some CSS properties at build time. Doing so saves us time and code by allowing us to write key parts of our CSS a single time while eliminating the need for vendor mixins like those found in v3.</p>
-<p>We maintain the list of browsers supported through Autoprefixer in a separate file within our GitHub repository. See <a href="https://github.com/twbs/bootstrap/blob/v5.2.0-beta1/.browserslistrc">.browserslistrc</a> for details.</p>
+<p>Bootstrap использует <a href="https://sass-lang.com/dart-sass">Dart Sass</a> для компиляции наших исходных файлов Sass в файлы CSS (включенные в наш процесс сборки), и мы рекомендуем Вам сделать то же самое, если Вы компилируете Sass с использованием собственного конвейера активов. Ранее мы использовали Node Sass для Bootstrap v4, но LibSass и пакеты, созданные на его основе, включая Node Sass, теперь <a href="https://sass-lang.com/blog/libsass-is-deprecated">устарели</a>.</p>
+<p>Dart Sass использует точность округления 10 и из соображений эффективности не позволяет изменять это значение. Мы не снижаем эту точность во время дальнейшей обработки нашего сгенерированного CSS, например, во время минификации, но если Вы решите это сделать, мы рекомендуем поддерживать точность не менее 6, чтобы предотвратить проблемы с округлением в браузере.</p>
+<h2 id="автопрефиксер">Автопрефиксер <a class="anchor-link" href="#%d0%b0%d0%b2%d1%82%d0%be%d0%bf%d1%80%d0%b5%d1%84%d0%b8%d0%ba%d1%81%d0%b5%d1%80" aria-label="Link to this section: Автопрефиксер"></a></h2>
+<p>Bootstrap использует <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> (включенный в наш процесс сборки) для автоматического добавления префиксов поставщиков к некоторым свойствам CSS во время сборки. Это экономит время и код, позволяя писать ключевые части нашего CSS за один раз, устраняя при этом необходимость в миксинах от поставщиков, подобных тем, что есть в v3.</p>
+<p>Мы храним список браузеров, поддерживаемых с помощью Autoprefixer, в отдельном файле в нашем репозитории GitHub. См. <a href="https://github.com/twbs/bootstrap/blob/v5.2.0-beta1/.browserslistrc">.browserslistrc</a> для получения дополнительной информации.</p>
 <h2 id="rtlcss">RTLCSS <a class="anchor-link" href="#rtlcss" aria-label="Link to this section: RTLCSS"></a></h2>
-<p>Bootstrap uses <a href="https://rtlcss.com/">RTLCSS</a> to process compiled CSS and convert them to RTL – basically replacing horizontal direction aware properties (eg. <code>padding-left</code>) with their opposite. It allows us only write our CSS a single time and make minor tweaks using RTLCSS <a href="https://rtlcss.com/learn/usage-guide/control-directives/">control</a> and <a href="https://rtlcss.com/learn/usage-guide/value-directives/">value</a> directives.</p>
-<h2 id="local-documentation">Local documentation <a class="anchor-link" href="#local-documentation" aria-label="Link to this section: Local documentation"></a></h2>
-<p>Running our documentation locally requires the use of Hugo, which gets installed via the <a href="https://www.npmjs.com/package/hugo-bin">hugo-bin</a> npm package. Hugo is a blazingly fast and quite extensible static site generator that provides us: basic includes, Markdown-based files, templates, and more. Here&rsquo;s how to get it started:</p>
+<p>Bootstrap использует <a href="https://rtlcss.com/">RTLCSS</a> для обработки скомпилированного CSS и преобразования их в RTL - в основном заменяя свойства, учитывающие горизонтальное направление (например, <code>padding-left</code>), их противоположностью. Это позволяет нам писать наш CSS только один раз и вносить незначительные изменения с помощью RTLCSS директив <a href="https://rtlcss.com/learn/usage-guide/control-directives/">control</a> и <a href="https://rtlcss.com/learn/usage-guide/value-directives/">value</a>.</p>
+<h2 id="локальная-документация">Локальная документация <a class="anchor-link" href="#%d0%bb%d0%be%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%b4%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d0%b8%d1%8f" aria-label="Link to this section: Локальная документация"></a></h2>
+<p>Для локального запуска нашей документации требуется использование Hugo, который устанавливается через пакет npm <a href="https://www.npmjs.com/package/hugo-bin">hugo-bin</a>. Hugo - это невероятно быстрый и достаточно расширяемый генератор статических сайтов, который предоставляет нам: базовые включения, файлы на основе Markdown, шаблоны и многое другое. Вот как это начать:</p>
 <ol>
-<li>Run through the <a href="#tooling-setup">tooling setup</a> above to install all dependencies.</li>
-<li>From the root <code>/bootstrap</code> directory, run <code>npm run docs-serve</code> in the command line.</li>
-<li>Open <code>http://localhost:9001/</code> in your browser, and voilà.</li>
+<li>Выполните <a href="#tooling-setup">настройку инструментов</a> выше, чтобы установить все зависимости.</li>
+<li>Из корневого каталога <code>/bootstrap</code>, запустите <code>npm run docs-serve</code> в командной строке.</li>
+<li>Откройте <code>http://localhost:9001/</code> в вашем браузере и вуаля.</li>
 </ol>
-<p>Learn more about using Hugo by reading its <a href="https://gohugo.io/documentation/">documentation</a>.</p>
-<h2 id="troubleshooting">Troubleshooting <a class="anchor-link" href="#troubleshooting" aria-label="Link to this section: Troubleshooting"></a></h2>
-<p>Should you encounter problems with installing dependencies, uninstall all previous dependency versions (global and local). Then, rerun <code>npm install</code>.</p>
+<p>Узнайте больше об использовании Hugo, прочитав его <a href="https://gohugo.io/documentation/">документацию</a>.</p>
+<h2 id="исправление-проблем">Исправление проблем <a class="anchor-link" href="#%d0%b8%d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc" aria-label="Link to this section: Исправление проблем"></a></h2>
+<p>Если у Вас возникнут проблемы с установкой зависимостей, удалите все предыдущие версии зависимостей (глобальные и локальные). Затем перезапустите <code>npm install</code>.</p>
 
       </div>
     </main>

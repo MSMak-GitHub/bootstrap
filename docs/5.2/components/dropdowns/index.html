@@ -563,7 +563,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul>
         <li><a href="#через-атрибуты-данных">Через атрибуты данных</a></li>
         <li><a href="#через-javascript">Через JavaScript</a></li>
-        <li><a href="#параметры">Параметры</a>
+        <li><a href="#опции">Опции</a>
           <ul>
             <li><a href="#использование-функции-с-popperconfig">Использование функции с <code>popperConfig</code></a></li>
           </ul>
@@ -2195,7 +2195,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>Независимо от того, вызываете ли вы выпадающий список через JavaScript или вместо этого используете data-api, в элементе триггера выпадающего списка всегда должен присутствовать <code>data-bs-toggle=&quot;dropdown&quot;</code>.
 </div>
 
-<h3 id="параметры">Параметры <a class="anchor-link" href="#%d0%bf%d0%b0%d1%80%d0%b0%d0%bc%d0%b5%d1%82%d1%80%d1%8b" aria-label="Link to this section: Параметры"></a></h3>
+<h3 id="опции">Опции <a class="anchor-link" href="#%d0%be%d0%bf%d1%86%d0%b8%d0%b8" aria-label="Link to this section: Опции"></a></h3>
 <p>Параметры можно передавать через атрибуты данных или JavaScript. Для атрибутов данных добавьте имя параметра к <code>data-bs-</code>, как в <code>data-bs-animation=&quot;&quot;</code>. Не забудьте изменить тип регистра имени параметра с camelCase на kebab-case при передаче параметров через атрибуты данных. Например, используйте <code>data-bs-custom-class=&quot;beautifier&quot;</code> вместо <code>data-bs-customClass=&quot;beautifier&quot;</code>.</p>
 <p>Начиная с Bootstrap 5.2.0, все компоненты поддерживают <strong>экспериментальный</strong> зарезервированный атрибут данных <code>data-bs-config</code>, который может содержать простую конфигурацию компонента в виде строки JSON. Когда элемент имеет атрибуты <code>data-bs-config='{&quot;delay&quot;:0, &quot;title&quot;:123}'</code> и <code>data-bs-title=&quot;456&quot;</code>, окончательное значение <code>title</code> будет <code>456</code>, а отдельные атрибуты данных переопределяют значения, указанные в <code>data-bs-config</code>. Кроме того, существующие атрибуты данных могут содержать значения JSON, такие как <code>data-bs-delay='{&quot;show&quot;:0,&quot;hide&quot;:150}'</code>.</p>
 
@@ -2219,7 +2219,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <td><code>reference</code></td>
 <td>string, element</td>
 <td><code>'toggle'</code></td>
-<td>Справочный элемент выпадающего меню. Принимает значения <code>'toggle'</code>, <code>'parent'</code>, ссылку HTMLElement или объект, предоставляющий <code>getBoundingClientRect</code>. Для получения дополнительной информации обратитесь к <a href="https://popper.js.org/docs/v2/constructors/#createpopper">документам конструктора Popper</a> и <a href="https://popper.js.org/docs/v2/virtual-elements/">документации виртуального элемента</a>.</td>
+<td>Справочный элемент выпадающего меню. Принимает значения <code>'toggle'</code>, <code>'parent'</code>, ссылку HTMLElement или объект, предоставляющий <code>getBoundingClientRect</code>. Для получения дополнительной информации обратитесь к <a href="https://popper.js.org/docs/v2/constructors/#createpopper">документации конструктора Popper</a> и <a href="https://popper.js.org/docs/v2/virtual-elements/">документации виртуального элемента</a>.</td>
 </tr>
 <tr>
 <td><code>display</code></td>
@@ -2231,7 +2231,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <td><code>offset</code></td>
 <td>number, string, function</td>
 <td><code>[0, 2]</code></td>
-<td>Смещение раскрывающегося списка относительно его цели. Вы можете передать строку в атрибутах данных со значениями, разделенными запятыми, например: <code>data-bs-offset=&quot;10,20&quot;</code>. Когда функция используется для определения смещения, она вызывается с объектом, содержащим размещение поппера, ссылку и прямоугольники поппера в качестве первого аргумента. Узел триггерного элемента DOM передается в качестве второго аргумента. Функция должна вернуть массив с двумя числами: <a href="https://popper.js.org/docs/v2/modifiers/offset/#skidding-1">skidding</a>, <a href="https://popper.js.org/docs/v2/modifiers/offset/#distance-1">distance</a>. Для получения дополнительной информации обратитесь к <a href="https://popper.js.org/docs/v2/modifiers/offset/#options">документам смещения Popper</a>.</td>
+<td>Смещение раскрывающегося списка относительно его цели. Вы можете передать строку в атрибутах данных со значениями, разделенными запятыми, например: <code>data-bs-offset=&quot;10,20&quot;</code>. Когда функция используется для определения смещения, она вызывается с объектом, содержащим размещение поппера, ссылку и прямоугольники поппера в качестве первого аргумента. Узел триггерного элемента DOM передается в качестве второго аргумента. Функция должна вернуть массив с двумя числами: <a href="https://popper.js.org/docs/v2/modifiers/offset/#skidding-1">skidding</a>, <a href="https://popper.js.org/docs/v2/modifiers/offset/#distance-1">distance</a>. Для получения дополнительной информации обратитесь к <a href="https://popper.js.org/docs/v2/modifiers/offset/#options">документации смещения Popper</a>.</td>
 </tr>
 <tr>
 <td><code>autoClose</code></td>
