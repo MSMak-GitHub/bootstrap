@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://getbootstrap.su/docs/5.2/getting-started/best-practices/</loc>
-  </url>
-  <url>
     <loc>https://getbootstrap.su/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/helpers/clearfix/</loc>
-  </url>
-  <url>
-    <loc>https://getbootstrap.su/docs/5.2/helpers/color-background/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/customize/css-variables/</loc>
@@ -19,10 +13,10 @@
     <loc>https://getbootstrap.su/docs/5.2/layout/css-grid/</loc>
   </url>
   <url>
-    <loc>https://getbootstrap.su/docs/5.2/getting-started/introduction/</loc>
+    <loc>https://getbootstrap.su/docs/5.2/getting-started/javascript/</loc>
   </url>
   <url>
-    <loc>https://getbootstrap.su/docs/5.2/getting-started/javascript/</loc>
+    <loc>https://getbootstrap.su/docs/5.2/components/offcanvas/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/getting-started/parcel/</loc>
@@ -77,9 +71,6 @@
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/getting-started/contribute/</loc>
-  </url>
-  <url>
-    <loc>https://getbootstrap.su/docs/5.2/components/offcanvas/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/components/popovers/</loc>
@@ -169,6 +160,9 @@
     <loc>https://getbootstrap.su/docs/5.2/about/license/</loc>
   </url>
   <url>
+    <loc>https://getbootstrap.su/docs/5.2/getting-started/best-practices/</loc>
+  </url>
+  <url>
     <loc>https://getbootstrap.su/docs/5.2/forms/layout/</loc>
   </url>
   <url>
@@ -182,6 +176,9 @@
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/customize/overview/</loc>
+  </url>
+  <url>
+    <loc>https://getbootstrap.su/docs/5.2/getting-started/introduction/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/utilities/opacity/</loc>
@@ -353,6 +350,9 @@
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/customize/color/</loc>
+  </url>
+  <url>
+    <loc>https://getbootstrap.su/docs/5.2/helpers/color-background/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.su/docs/5.2/utilities/colors/</loc>
