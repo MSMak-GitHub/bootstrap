@@ -77,7 +77,7 @@
 
   clipboard.on('error', event => {
     const modifierKey = /mac/i.test(navigator.userAgent) ? '\u2318' : 'Ctrl-'
-    const fallbackMsg = `Press ${modifierKey}C to copy`
+    const fallbackMsg = `Нажмите ${modifierKey}C чтобы скопировать!`
     const tooltipBtn = bootstrap.Tooltip.getInstance(event.trigger)
 
     tooltipBtn.setContent({ '.tooltip-inner': fallbackMsg })
